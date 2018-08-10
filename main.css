@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #eceff1;
+}
+
+.search-results {
+  padding-bottom: 8px;
+}
+
+.search-item {
+  margin-top: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+.card .card-image {
+    position: relative;
+    padding-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+	margin-bottom: 16px;
+}

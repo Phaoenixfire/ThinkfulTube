@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" name="description" content="Thinkful Tube App">
+  <title>Thinkful Tube App</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <form name="user-search" class="col s12">
+        <div class="row">
+          <div class="input-field col s9">
+            <input type="search" class="user-search-input" placeholder="Search Youtube">
+          </div>
+          <div class="input-field col s3">
+            <button type="submit" class="user-search-submit waves-effect waves-light btn red darken-4">Search Youtube</button>
+          </div>
+        </div>
+      </form>
+    </div>
+      
+    <div class="search-results"></div>
+    <div class="more-results">
+      <div class="row">
+        <div class="col s6">
+          <a class="waves-effect waves-light btn red darken-4 right prev-page hidden">Previous Results</a>          
+        </div>
+        <div class="col s6">
+          <a class="waves-effect waves-light btn red darken-4 right next-page hidden">More Results</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- link to jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- link to materialize -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  <!-- link to your app.js -->
+  <script src="app.js"></script>
+</body>
+</html>
+
