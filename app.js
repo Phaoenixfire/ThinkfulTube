@@ -1,5 +1,5 @@
 var YOUTUBE_URL = 'https://www.googleapis.com/youtube/v3/search';
-var KEY = 'AIzaSyA3IHL73MF00WFjgxdwzg57nI1CwW4dybQ';
+var KEY = 'AIzaSyAT0R7BXc5ac5o1CHVrFXeSnbyOAMPSwZc';
 var USERSEARCHTERM = '';
 
 $(function(){
@@ -45,6 +45,7 @@ function getPrevPageData(searchTerm, nextPage, callback) {
 }
 
 function displayYoutubeSearchData(data) {
+	console.log(data)
 	var resultsHTML = '<div class="row">';
 	data.items.forEach(function (item) {
 		resultsHTML = (resultsHTML + '<div class="search-item col s12 m6"><div class="card small hoverable">' +
